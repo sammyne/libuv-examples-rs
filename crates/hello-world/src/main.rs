@@ -1,6 +1,6 @@
 use anyhow::Context;
-use libuv::prelude::*;
 use libuv::Loop;
+use libuv::prelude::*;
 
 fn main() -> anyhow::Result<()> {
     // Initialize the libuv loop
