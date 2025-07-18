@@ -1,0 +1,12 @@
+[workspace]
+members = ["crates/*"]
+
+resolver = "3"
+
+
+[workspace.dependencies]
+anyhow = "1"
+
+[workspace.dependencies.libuv]
+#features = ["skip-pkg-config"]
+version = "2.12"
