@@ -85,6 +85,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "filesystem"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "libuv",
+]
+
+[[package]]
 name = "glob"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
