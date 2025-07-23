@@ -1,0 +1,11 @@
+[package]
+name = "networking"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+
+[dependencies.libuv]
+features = ["skip-pkg-config"]
+workspace = true
